@@ -8,6 +8,8 @@ const guessDiv = document.querySelector(".last-guesses");
 let number = Math.floor(Math.random() * 100) + 1;
 let lastGuesses = [];
 
+
+
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     if(guess.value == ""){
