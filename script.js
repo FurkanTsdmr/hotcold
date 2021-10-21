@@ -5,6 +5,7 @@ const guess = document.getElementById("guess");
 const form = document.querySelector("form");
 const guessDiv = document.querySelector(".last-guesses");
 
+
 let number = Math.floor(Math.random() * 100) + 1;
 let lastGuesses = [];
 
